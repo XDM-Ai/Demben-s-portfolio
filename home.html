@@ -118,8 +118,17 @@
   <p>&copy; 2026 XdmFirms. All rights reserved.</p>
 </footer>
 
+  <script>
+  const menu = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  menu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 </body>
 </html>
+
 
 
 
